@@ -1,4 +1,4 @@
-# Proyecto integrador grupal: Cerveceria Local
+# Proyecto integrador grupal: Beer Bar (B&B)
 
 Sofia Spinelli
 
