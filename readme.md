@@ -11,6 +11,7 @@ Sofia Spinelli
 19 años. Estudiante de programacion Full Stack en Digital House y desarrolladora web(html y css).
 
 German Insaurralde 
+19 años. Estudiante de programacion Full Stack en Digital House.
 
 Diego Melgarejo
 
