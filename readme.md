@@ -15,6 +15,9 @@ German Insaurralde
 
 Diego Melgarejo
 
+Ignacio Rubio Montes
+25 años. Técnico Químico. Estudiante de programación Full Stack(Digital House). Antes corría más que ahora. Papá. Encargado en @brewerscervecería.
+
 # Enlaces de referencia para nuestro proyecto:
 
 Idea para codigo QR en mesas https://menu.maxirest.com/26956
