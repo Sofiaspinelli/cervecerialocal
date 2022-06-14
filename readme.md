@@ -1,4 +1,4 @@
-GRUPO 5: beer&bar
+GRUPO 6: beer&bar
 # Proyecto integrador grupal: Beer Bar (B&B)
 
 En esta ocasion, les presentamos una pagina ideada para un Restobar (Beer & Bar) para facilitarles los pedidos en el mismo (contamos con carrito de compras para la seleccion de los productos) y en el caso de no asistir al establecimiento, poder hacer el pedido correspondiente para envío desde la comodidad de sus hogares. 
