@@ -25,3 +25,5 @@ Idea para codigo QR en mesas https://menu.maxirest.com/26956
 Por la estetica y funcionalidades que presentan https://www.cervezapatagonia.com.ar/
 
 Por la navegacion, el estilo de las letras y colores https://www.rabieta.com.ar/home.php
+
+Por sencilla y concreta, dinamismo en el carrito https://sirhopper.com/
