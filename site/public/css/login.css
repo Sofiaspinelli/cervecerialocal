@@ -1,0 +1,92 @@
+/* header */
+.login header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login header .logo img{
+    width: 65%;
+    margin-left: 10px;
+}
+.login header nav ul{
+    display: flex;
+    font-size: 40px;
+    margin: 10px;
+    padding: 0;
+}
+.login header nav ul li{
+    margin-right: 10px;
+}
+
+/* main */
+.login main{
+    width: 335px;
+    margin: 0 auto;
+}
+.login main h1{
+    text-align: center;
+    text-decoration:underline;
+}
+.login main .container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.login main .container label{
+    font-size: 20px;
+}
+.login main .login_button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.login main .login_button button{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 0px 117px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.login main .login_button .one{
+    padding: 0px 120px;
+}
+.login main .login_button button a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.login main .login_button button i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.login main .extra{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* tablet */
+
+/* desktop */
+@media (min-width:769px){
+    .login header{
+        /* background-color: white; */
+        display: block;
+        text-align: center;
+    }
+    .login header .logo img{
+        width: 250px;
+        margin: 5px 0 0;
+    }
+    .login header nav{
+        display: none;
+    }
+
+}
