@@ -31,4 +31,4 @@ Por su front y bóveda histórica a asimilar https://strange.com.ar/home
 
 ## Logo de la pagina 
 
-![Logo](/Extras/logo-beerbar.png)
+![Logo](/Extras/logo/logo-beerbar.png)
