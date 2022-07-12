@@ -29,6 +29,9 @@ Por sencilla y concreta, dinamismo en el carrito https://sirhopper.com/
 
 Por su front y bóveda histórica a asimilar https://strange.com.ar/home
 
+## Trello
+https://trello.com/b/mTHIpN9v/proyecto
+
 ## Logo de la pagina 
 
 ![Logo](/Extras/logo/logo-beerbar.png)
