@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="/css/styles.css">
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/e41faadd8e.js" crossorigin="anonymous"></script>
-<!--  Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--  Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="home">
+
+<body>
     <header>
-        <div><a href="/"><img src="../img/logo/logo-beerbar.png" alt="logo"></a></div>
+        <div class="grid">
+            <button class="burger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="logo">
+                <a href="/"><img src="../img/logo/logo-beerbar.png" alt="logo"></a>
+            </div>
+            <button class="carrito">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button class="seach">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
 
         <nav>
-            <ul> 
+            <ul>
                 <li><a href="/productos">Productos</a></li>
                 <li><a href="#">Empresa</a></li>
                 <li><a href="#">Ayuda</a></li>
@@ -28,16 +43,44 @@
             </ul>
 
         </nav>
+        <div class="t-f">
+            <button><i class="fa-brands fa-twitter"></i></button>
+            <button><i class="fa-brands fa-facebook-f"></i></button>
+        </div>
     </header>
 
 
-
+    <main>
+        <img src="/img/productos/D_NQ_NP_717441-MLA47094489878_082021-O.jpg" alt="">
+    </main>
     <footer>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <span>Copyright</span>
+        <section>
+            <p> <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+                
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp-square"></i></a> 
+            </p>
+        </section>
+        <section class="contenedor">
+            <article><a href="">Nuestros Productos</a> </article>
+            <article><a href="">Empresa</a> </article>
+            <article><a href=""> Ayuda</a></article>
+            <article><a href="/register.html">Registrarse</a></article>
+        </section>
+        <section class="contenedor_2">
+            <article><a href=""> Terminos y condiciones</a></article>
+            <article><a href="">Politicas de privacidad</a></article>
+            <article><a href="">Contacto</a></article>
+            <article><a href="">Franquicias</a></article>
+            <article><a href="">Happyhours</a></article>
+        </section>
+        <section>
+            <article>Beber con moderacion. Prohibida su venta a menores de 18 años. No comparta el contenido con
+                menores. 2021 BEER&BAR</article>
+            <article class="copyright">Copyright © beer&bar</article>
+        </section>
+
     </footer>
 </body>
+
 </html>
