@@ -13,8 +13,6 @@ Sofia Spinelli
 German Insaurralde 
 19 años. Estudiante de programacion Full Stack en Digital House.
 
-Diego Melgarejo
-
 Ignacio Rubio Montes
 25 años. Técnico Químico. Estudiante de programación Full Stack(Digital House). Antes corría más que ahora. Papá. Encargado en @brewerscervecería.
 
