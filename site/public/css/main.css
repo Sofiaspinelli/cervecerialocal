@@ -1,0 +1,96 @@
+.home main {
+    margin: 0 auto;
+    width: 90%;
+}
+.home main .productos {
+    color: var(--colorBlanco);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home main  .productos article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.33);
+    border: 1px;
+    border-radius: 10px;
+}
+.home main  .productos article img {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    
+    
+}
+.home main .productos article button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+    width: 120px;
+    border: 1px solid var(--colorGris);
+    border-radius: 10px;
+    background-color: rgb(54, 49, 49);
+    color: var(--colorBlanco);
+    font-size: 16px;
+}
+.home main .productos article button:hover{
+    background-color: var(--colorNaranja);
+}
+.home main .productos article .old{
+    text-decoration:line-through;
+    font-size: 14px;
+    color: rgb(182, 181, 181);
+    display: flex;
+    justify-items: start;
+}
+.home main .productos article .precio {
+font-size: 20px;
+}
+.home main .productos article .descuento {
+    color: var(--descuentos);
+    margin: 10px;
+    font-size: 16px;
+}
+.home main .productos article .contenedor {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 80%;
+}
+
+/* Tablet  */
+@media (min-width:460px) {
+    .home main  .productos article {
+        width: 185px;
+        height: 350px;
+
+    }
+}
+
+@media (min-width:769px) {
+    .home main {
+        width: 100%;
+    }
+    .home main  .productos article {
+        width: 300px;
+        height: 350px;
+
+    }
+    .home main .productos article .old {
+        font-size: 16px;
+    }
+    .home main .productos article .precio{
+        font-size: 24px;
+    }
+    .home main .productos article .descuento {
+        font-size: 20px;
+    }
+}

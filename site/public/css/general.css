@@ -10,8 +10,23 @@ a{
     text-decoration: none;
     color: black;
 }
+h1 {
+    font-size: var(--fuenteTitulares);
+    text-align: center;
+    color: var(--colorBlanco);
+    border-bottom: 1px solid rgba(131, 130, 130, 0.774);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
 body{
     margin: 0 auto; 
     font-family: var(--fuentePrincipal);
-    background-image: url("");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/productos/bg-6.jpg");
 }

@@ -1,62 +1,70 @@
-header {
-    padding: 20px 0;
-    background-color: var(--colorNaranja);
+.home header {
+    padding-top: 20px;
+    
+    background-color: #d6651fd1; 
+    width: 100%;
+    
 }
 
-header .logo {
+.home header .logo {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-header img {
+.home header img {
     width: 110px;
     height: 90%;
 }
-header button {
-    color: var(--colorNegro);
-    border: 1px solid var(--colorNaranja);
-    background-color: var(--colorNaranja);
+.home header button {
+    color: var(--colorBlanco);
+    border: 1px  /* var(--colorNaranja) */;
+    background-color: rgba(255, 255, 255, 0);
 }
-header .burger {
-    font-size: 40px;
+.home header .burger {
+    font-size: 30px;
     display: flex;
     justify-content: start;
+    background-color: rgba(255, 255, 255, 0);
 }
 
-header .carrito,
+.home header .carrito,
 .seach {
     font-size: 30px;
     display: flex;
     justify-content: end;
+    background-color: rgba(255, 255, 255, 0);
 }
 
-header .grid {
+.home header .grid {
     display: grid;
     grid-template-columns: 10% 70% 10% 10%;
     margin: 0 15px;
 }
-header .t-f {
+.home header .t-f {
     display: flex;
     justify-content: center;
     
 }
 
-header nav {
+.home header nav {
     margin: 20px;
     text-align: left;
+    display: none;
+    
 }
 
-header nav ul {
+.home header nav ul {
     padding-bottom: 10px;
 }
 
-header nav ul li {
+.home header nav ul li {
     margin: 10px 0;
+    
 }
 
-header nav a {
-    color: rgb(0, 0, 0);
+.home header nav a {
+    color: white;
     text-transform: uppercase;
     font-size: var(--tamañoFuente);
     
