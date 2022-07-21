@@ -69,3 +69,33 @@
     font-size: var(--tamañoFuente);
     
 }
+@media (min-width:769px) {
+    .home header img  {
+        padding-left: 30px;
+    }
+    
+    .home header .grid .burger{
+        display: none;
+    }
+    .home header nav {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+    }
+    .home header nav ul {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+    .home header nav ul li {
+        margin: 0 5px;
+    }
+    .home header nav ul.user {
+        display: flex;
+        justify-content: end;
+        
+    }
+    .home header .t-f{
+        display: none;
+    }
+    }
