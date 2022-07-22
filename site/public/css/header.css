@@ -10,11 +10,14 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 0 20px;
 }
 
+
 .home header img {
-    width: 110px;
+    width: 160px;
     height: 90%;
+    padding: 0 20px;
 }
 .home header button {
     color: var(--colorBlanco);
@@ -72,6 +75,7 @@
 @media (min-width:769px) {
     .home header img  {
         padding-left: 30px;
+        justify-content: center;
     }
     
     .home header .grid .burger{
@@ -80,7 +84,7 @@
     .home header nav {
         display: flex;
         width: 90%;
-        justify-content: center;
+        justify-items: center;
     }
     .home header nav ul {
         display: flex;

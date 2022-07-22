@@ -78,6 +78,7 @@ font-size: 20px;
 @media (min-width:769px) {
     .home main {
         width: 100%;
+        max-width: 1024px;
     }
     .home main  .productos article {
         width: 300px;
