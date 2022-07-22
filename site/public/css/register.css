@@ -1,6 +1,6 @@
 /* header */
 .register header{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,9 +20,14 @@
 }
 
 /* main */
+
 .register main{
    width: 335px;
    margin: 0 auto;
+   background-color: rgba(255, 255, 255, 0.178);
+   padding: 20px 20px 0;
+   border: 2px double black;
+   border-radius: 20px;
 }
 .register main h1{
     text-align: center;
@@ -58,7 +63,7 @@
 }
 .register main .G{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

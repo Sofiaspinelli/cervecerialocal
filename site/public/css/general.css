@@ -1,3 +1,32 @@
 *{
     list-style: none;
 }
+.home{
+    background-color: rgb(249, 132, 29);
+    background-image: url('/img/friends-background.jpg');
+    /* background-image: url('/img/glass-bottles-background.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: var(--fuentePrincipal);
+}
+.login{
+    background-color: rgb(249, 132, 29);
+    /* background-image: url('/img/friends-background.jpg'); */
+    /* background-image: url('/img/bottles-of-beer-on-dark-background.jpg'); */
+    background-image: url('/img/beer-glass-in-front-of-blurred-background.jpg');
+    /* background-image: url('/img/glass-bottles-background.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--fuentePrincipal);
+}
+.register{
+    background-color: rgb(249, 132, 29);
+    /* background-image: url('/img/bottles-of-beer-on-dark-background.jpg'); */
+    background-image: url('/img/glass-bottles-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--fuentePrincipal);
+}

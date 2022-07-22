@@ -1,9 +1,16 @@
 /* header */
 .login header{
-    background-color: orange;
+    /* background-color: black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: static;
+}
+.login main{
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 20px 20px 199px;
+    border: 2px double black;
+    border-radius: 20px;
 }
 .login header .logo img{
     width: 65%;
