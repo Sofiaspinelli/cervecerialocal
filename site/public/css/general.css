@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0 auto; 
+    font-family: var(--fuentePrincipal);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/productos/bg-6.jpg");
+}
 li {
     list-style: none;
 }
@@ -21,12 +29,21 @@ h3 {
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 15px;
+    color: var(--colorBlanco);
 }
-body{
-    margin: 0 auto; 
-    font-family: var(--fuentePrincipal);
-    background-position: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/productos/bg-6.jpg");
+.precio {
+    font-size: 20px;
 }
+.descuento {
+        color: var(--descuentos);
+        margin: 10px;
+        font-size: 16px;
+}
+.old{
+    text-decoration:line-through;
+    font-size: 14px;
+    color: rgb(182, 181, 181);
+    display: flex;
+    justify-items: start;
+}
+

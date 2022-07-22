@@ -11,24 +11,28 @@
     <script src="https://kit.fontawesome.com/e41faadd8e.js" crossorigin="anonymous"></script>
     <!--  Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>home</title>
 </head>
 
 <body class="home">
-    <header>
+    <header class="header">
         <div class="grid">
-            <button class="burger">
-                <i class="fa-solid fa-bars"></i>
-            </button>
             <div class="logo">
                 <a href="/"><img src="../img/logo/logo-beerbar.png" alt="logo"></a>
             </div>
-            <button class="carrito">
+            <button class="search">
+                <input type="text" placeholder="buscar productos">
+                <i class="fa-solid fa-magnifying-glass btn"></i>
+            </button>
+            
+            <div class="icons">
+                <button class="carrito">
                 <i class="fa-solid fa-cart-shopping"></i>
             </button>
-            <button class="seach">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+                <button class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </div>
 
         <nav>
@@ -63,7 +67,7 @@
                     <p class="precio">$1200 <small class="descuento">20%</small>
                     <p>
                 </div>
-                <button>Añadir al carrito</button>
+                <button><a href="/detail">Ver mas</a></button>
             </article>
 
             <article>

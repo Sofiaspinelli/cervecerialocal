@@ -1,4 +1,4 @@
-.home header {
+.header {
     padding-top: 20px;
     
     background-color: #d6651fd1; 
@@ -6,100 +6,131 @@
     
 }
 
-.home header .logo {
+.header .logo {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 0 20px;
 }
 
-
-.home header img {
-    width: 160px;
+.header img {
+    width: 190px;
     height: 90%;
-    padding: 0 20px;
 }
-.home header button {
+.header button {
     color: var(--colorBlanco);
     border: 1px  /* var(--colorNaranja) */;
     background-color: rgba(255, 255, 255, 0);
 }
-.home header .burger {
+.header .burger {
     font-size: 30px;
     display: flex;
     justify-content: start;
     background-color: rgba(255, 255, 255, 0);
 }
 
-.home header .carrito,
-.seach {
-    font-size: 30px;
-    display: flex;
-    justify-content: end;
-    background-color: rgba(255, 255, 255, 0);
+.header .carrito{
+    font-size: 40px;
 }
 
-.home header .grid {
-    display: grid;
-    grid-template-columns: 10% 70% 10% 10%;
+.header .grid {
+    display: flex;
     margin: 0 15px;
+    padding: 20px 20px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
-.home header .t-f {
+.header .grid .search input{
+    display: none;
+    font-size: 18px;
+    padding: 7px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+.header .grid .icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .grid .icons button:last-child{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.header .t-f {
     display: flex;
     justify-content: center;
     
 }
 
-.home header nav {
+.header nav {
     margin: 20px;
     text-align: left;
     display: none;
-    
+    justify-content: space-between;
 }
 
-.home header nav ul {
+.header nav ul {
     padding-bottom: 10px;
 }
 
-.home header nav ul li {
+.header nav ul li {
     margin: 10px 0;
     
 }
 
-.home header nav a {
+.header nav a {
     color: white;
     text-transform: uppercase;
     font-size: var(--tamañoFuente);
     
 }
 @media (min-width:769px) {
-    .home header img  {
-        padding-left: 30px;
+    .header img  {
         justify-content: center;
     }
-    
-    .home header .grid .burger{
+    .header .burger{
         display: none;
     }
-    .home header nav {
+    .header .grid .search{
         display: flex;
-        width: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .header .grid .search i{
+        font-size: 20px;
+        transition: all 0.6s ease;
+    }
+    .header .grid .search .btn{
+        width: 300px;
+        height: 20px;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer
+    }
+    .header .grid .search i:hover input{
+        display: flex;
+    }
+    .header .grid .search input{
+        display: flex;
+        margin-right: 8px;
+    }
+    .header nav {
+        display: flex;
         justify-items: center;
     }
-    .home header nav ul {
+    .header nav ul {
         display: flex;
-        justify-content: center;
-        width: 40%;
     }
-    .home header nav ul li {
+    .header nav ul li {
         margin: 0 5px;
     }
-    .home header nav ul.user {
+    .header nav ul.user {
         display: flex;
         justify-content: end;
         
     }
-    .home header .t-f{
+    .header .t-f{
         display: none;
     }
     }
