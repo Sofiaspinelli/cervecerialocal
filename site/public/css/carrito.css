@@ -1,1 +1,48 @@
-/* SHOP BASKET */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 35px;
+    font-family: 'Nunito Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+}
+.buscar input{
+    width: 0px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+.buscar:hover input{
+    width: 350px;
+}
+.buscar input:focus{
+    width: 350px;
+}
