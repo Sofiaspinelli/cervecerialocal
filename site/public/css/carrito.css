@@ -3,15 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main{
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+main h2{
+    margin:0px;
+    text-align: center;
+}
 .main .contGrid{
     display: flex;
+    margin: 0px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: 20%;
     overflow: hidden;
 }
 .main .contGrid .producto{
+    margin-left: 0px;
     width: 300px;
     height: 600px;
     border: solid 2px #000;
@@ -28,7 +41,7 @@
 }
 .main .contGrid .producto .imgCont img{
     display: flex;
-    margin-left: 100px;
+    margin-left: 0;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -54,5 +67,5 @@
     cursor: pointer;
     border: solid 3px rgb(250, 71, 0);
     padding: 5px;
-    background: none;
+    background: rgb(255, 153, 0);
 }

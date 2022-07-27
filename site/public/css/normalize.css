@@ -31,7 +31,7 @@ body {
    */
 
 main {
-    display: block;
+    display: table-row;
 }
 
 /**
