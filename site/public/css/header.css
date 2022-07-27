@@ -39,10 +39,9 @@
     justify-content: space-between;
     align-items: center;
 }
-.buscar{
-    position: absolute;
+.header .buscar{
+    position: relative;
     padding: 5px;
-    margin: 500px;
 }
 .buscar input{
     width: 0px;
