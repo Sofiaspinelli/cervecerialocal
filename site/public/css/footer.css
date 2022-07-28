@@ -1,8 +1,9 @@
 footer {
-    background-color: var(--colorNaranja);
+    background-color: orange;
     margin: 20px auto 0;
     border-radius: 40px 40px 0 0;
     width: 98%;
+    color: white;
 }
 
 footer section {

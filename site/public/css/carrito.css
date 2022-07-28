@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 .main{
+    color: white;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
 }
 main h2{
     margin:0px;
@@ -17,7 +22,8 @@ main h2{
     width: 100%;
     height: 200px;
     display: flex;
-    border: solid 2px #000;
+    border: solid 2px gray;
+    border-radius: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -30,6 +36,7 @@ main h2{
     justify-content: space-between;
 }
 .main .contGrid .producto{
+    margin: 0 auto;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +44,8 @@ main h2{
     align-items: center;
 }
 .main .contGrid .producto .imgcCont{
-    width: 50px;
+    width: 6%;
+    min-width: 70px;
 }
 .main .contGen .contGrid .producto .info{
     display: flex;
@@ -81,4 +89,19 @@ main h2{
 top: -7px;
 right: -2px;
 padding: 10px;
+}
+.main .end{
+    padding: 2px;
+    margin: 20px;
+}
+.main .end button{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    background-color: orange;
+    cursor: pointer;
+}
+.main .end input{
+    font-size: 20px;
+    padding: 5px;
 }
