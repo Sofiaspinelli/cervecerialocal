@@ -43,11 +43,12 @@
 .header .buscar{
     position: relative;
     padding: 5px;
+    display: none;
 }
 .buscar input{
     position:absolute;
     right: -145px;
-    top: -24px;
+    top: -20px;
     width: 0px;
     height: 45px;
     padding: 0 20px;
@@ -125,6 +126,9 @@
     }
     .header .burger{
         display: none;
+    }
+    .header .buscar{
+        display: block;
     }
     .header .flex .search{
         display: flex;
