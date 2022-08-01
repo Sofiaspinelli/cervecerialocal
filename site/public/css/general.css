@@ -3,7 +3,7 @@
 }
 .home{
     background-color: rgb(249, 132, 29);
-    background-image: url('/img/friends-background.jpg');
+    /* background-image: url('/img/friends-background.jpg'); */
     /* background-image: url('/img/glass-bottles-background.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
