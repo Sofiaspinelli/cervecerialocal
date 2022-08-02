@@ -1,0 +1,135 @@
+.header {
+    background-color: #d6651fd1; 
+    width: 98%; 
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 0 0 40px 40px;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    max-width: 200px;
+}
+
+.header img{
+    width: 100%;
+}
+.header button {
+    color: var(--colorBlanco);
+    border: 1px  /* var(--colorNaranja) */;
+    background-color: rgba(255, 255, 255, 0);
+}
+.header .burger {
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header .carrito{
+    font-size: 40px;
+}
+
+.header .flex {
+    display: flex;
+    padding: 20px 30px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .flex .search{
+    display: none;
+}
+.header .flex .search input{
+    /* display: none; */
+    font-size: 18px;
+    padding: 7px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+.header .flex .icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .flex .icons button:last-child{
+    font-size: 40px;
+    margin-left: 20px;
+}
+/* .header .t-f {
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.header nav {
+    display: block;
+    width: 89%;
+    margin: 0 auto;
+}
+
+/* .header nav ul {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+} */
+
+.header nav ul li {
+    margin: 5px;
+    
+}
+
+.header nav a {
+    color: white;
+    text-transform: uppercase;
+    font-size: var(--tamañoFuente);
+    
+}
+@media (min-width:668px) {
+    .header{
+        height: 155px;
+    }
+    .header img  {
+        justify-content: center;
+    }
+    .header .burger{
+        display: none;
+    }
+    .header .flex .search{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .header .flex .search i{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .header .flex .search input{
+        display: block;
+    }
+
+    .header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+     }
+    .header nav ul li {
+        margin: 0 5px;
+    }
+    .header nav ul.user {
+        display: flex;
+        justify-content: end;
+        
+    }
+    .header .t-f{
+        display: none;
+    }
+    }
