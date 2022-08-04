@@ -66,10 +66,14 @@ main h2{
     justify-content: space-between;
 }   
 .main .contGrid .contenido strong{
-    font-size: 20px;
+    position: absolute;
+    top:75px;
+    font-size: 18px;
+    text-align: center;
 }
 .main .contGrid .contenido p{
-    font-size: 25px;
+    font-size: 17px;
+    text-align: center;
 }
 .main .contGrid .producto .info{
     display: flex;
@@ -83,12 +87,15 @@ main h2{
     border: solid 3px rgb(250, 71, 0);
     padding: 5px;
     background: rgb(255, 153, 0);
+    position: absolute;
+    top: 220px;
+    right: 150px;
 }
 .main .contGrid .producto .info .trash{
     position: absolute;
-top: -7px;
-right: -2px;
-padding: 10px;
+    top: -7px;
+    right: -2px;
+    padding: 10px;
 }
 .main .end{
     padding: 2px;
@@ -106,6 +113,11 @@ padding: 10px;
     padding: 5px;
     width: 157px;
 }
+.main .precio{
+    position: absolute;
+    top: 190px;
+    right: 150px;
+}
 @media (min-width:615px){
     .main .contGen{
         height: 200px;
@@ -113,4 +125,26 @@ padding: 10px;
     .main .contGrid .producto .info{
         margin: 0;
     }
+    .main .contGrid .producto .info button{
+        height: 45px;
+        margin-top: 5px;
+        cursor: pointer;
+        border: solid 3px rgb(250, 71, 0);
+        padding: 5px;
+        background: rgb(255, 153, 0);
+        position: inherit;
+}
+.main .contGrid .contenido p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.main .contGrid .contenido strong{
+    font-size: 18px;
+    text-align: center;
+}
+.main .precio{
+    text-align: center;
+    position: inherit;
+}
 }
