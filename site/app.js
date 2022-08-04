@@ -19,11 +19,13 @@ app.use(connectLivereload());
 
 /* Rutas */
 app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'index.html')));
-app.get('/detalle', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'detalle.html')));
 app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'register.html')));
 app.get('/login', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'login.html')));
 app.get('/carrito', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'carrito.html')));
 app.get('/productos', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'productos.html')))
+app.get('/detail', (req, res) => res.sendFile(path.resolve(__dirname, 'views', 'detail.html')))
+
+
 app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'views', '404.html')));
 
 /* Funcion de actualizacion del servidor */
@@ -34,4 +36,4 @@ liveReloadServer.server.once("connection", () => {
 });
 
 /* levantamos servidor */
-app.listen(port, () => console.log(`servidor levantado en el puerto ${port}`));
+app.listen(port, () => console.log(`servidor levantado en el puerto http:localhost:${port}`));

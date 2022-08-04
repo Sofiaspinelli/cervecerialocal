@@ -1,10 +1,20 @@
-/* Fuente a utilizar */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,200;1,300&family=Roboto:wght@300&display=swap');
 
+/* Fuente a utilizar */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
     /* Colores */
-    --colorPrincipal:rgb(215, 130, 27);
+    --colorNaranja:rgb(219, 105, 12);
+    --colorNaranjaClaro: #f8dda4;
+    --colorNegro: black;
+    --colorBlanco:white ;
+    --colorGris: #585653;
+    --colorGrisClaro: #bfbebe8c;
+    --descuentos: rgb(219, 105, 12);
+    --colorButtom:rgb(54, 49, 49);
+    
 
     /* Fuentes */
-    --fuentePrincipal: 'Nunito Sans', sans-serif;
+    --fuentePrincipal: 'Bebas Neue', cursive;
+    --tamañoFuente: 25px;
+    --fuenteTitulares: 30px;
 }
