@@ -8,7 +8,7 @@ const connectLivereload = require('connect-livereload');
 const path = require('path');
 
 const app = express();
-const port = 3006;
+const port = 3008;
 
 /* Archivos estaticos */
 app.use(express.static(path.resolve(__dirname, 'public')));
