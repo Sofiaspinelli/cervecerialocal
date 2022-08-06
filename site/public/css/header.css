@@ -1,7 +1,7 @@
 .header {
     background-color: #d6651fd1; 
     width: 98%; 
-    height: 230px;
+    
     margin: 0 auto;
     border-radius: 0 0 40px 40px;
 }
@@ -41,15 +41,16 @@
     align-items: center;
 }
 .header .flex .search{
-    display: none;
+    display: block;
 }
 .header .flex .search input{
-    /* display: none; */
+    display: none;
     font-size: 18px;
     padding: 7px;
     width: 300px;
     border-radius: 10px;
     border: none;
+
 }
 .header .flex .icons{
     display: flex;
@@ -67,7 +68,7 @@
 } */
 
 .header nav {
-    display: block;
+    display: none;
     width: 89%;
     margin: 0 auto;
 }
