@@ -1,7 +1,6 @@
 .header {
     background-color: #d6651fd1; 
     width: 98%; 
-    height: 230px;
     margin: 0 auto;
     border-radius: 0 0 40px 40px;
 }
@@ -41,6 +40,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .header .buscar{
     position: relative;
     padding: 5px;
@@ -80,6 +80,7 @@
 .buscar input:focus{
     width: 350px;
 }
+
 .header .flex .icons{
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +91,7 @@
     margin-left: 20px;
 }
 .header nav {
-    display: block;
+    display: none;
     width: 89%;
     margin: 0 auto;
 }
@@ -118,18 +119,6 @@
     .header .buscar{
         display: block;
     }
-    .header .flex .search{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .header .flex .search i{
-        font-size: 20px;
-        padding: 10px;
-    }
-    .header .flex .search input{
-        display: block;
-    }
 
     .header nav {
         display: flex;
@@ -139,7 +128,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-     }
+    }
     .header nav ul li {
         margin: 0 5px;
     }
